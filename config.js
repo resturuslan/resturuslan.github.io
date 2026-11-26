@@ -7,7 +7,7 @@ window.WEDDING_DEFAULTS = {
   "bride": {
     "fullName": "Restu Shafira, S.Kom",
     "parents": "Anak kedua dari dua bersaudara, putri dari Bapak Kabul Heri, SE dan Ibu Aan Hasanah, SE.",
-    "photo": "assets/bride.svg",
+    "photo": "assets/uploads/49817ffafc1dc8ac5097d1ff3e18150418bc4d2735581d5a74911b513819bf18.jpg",
     "instagram": ""
   },
   "groom": {
