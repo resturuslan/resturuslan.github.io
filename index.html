@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#142630">
+  <meta name="description" content="Undangan pernikahan Restu & Ruslan. Sebuah perjalanan cinta, satu janji selamanya.">
+  <title>Restu & Ruslan — The Wedding</title>
+  <link rel="icon" href="assets/monogram.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="config.js"></script>
+  <script defer src="store.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Cover: nama tamu diambil dari parameter URL ?to=... -->
+  <section class="cover dark" id="cover" aria-labelledby="cover-title">
+    <div class="cover-inner">
+      <div class="cover-frame" aria-hidden="true"></div>
+      <img class="cover-seal" src="assets/monogram.svg" alt="" width="75" height="75">
+      <p class="eyebrow">The wedding invitation</p>
+      <div class="cover-art" aria-hidden="true"><img src="assets/cover.svg" alt=""></div>
+      <h1 id="cover-title">Restu <em>&</em> Ruslan</h1>
+      <p class="cover-date" data-wedding-date>Sabtu, 2 Januari 2027</p>
+      <div class="small-ornament" aria-hidden="true">✧</div>
+      <p class="guest-label">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+      <p class="guest-name" id="guest-name">Tamu Undangan</p>
+      <button class="btn gold" id="open-invitation" type="button"><span aria-hidden="true">✉</span> Buka Undangan</button>
+      <p class="cover-note">Dengan penuh kebahagiaan, kami mengundang Anda.</p>
+    </div>
+  </section>
+  <div id="invitation" inert>
+    <header class="site-header" id="top">
+      <a href="#home" class="brand" aria-label="Restu dan Ruslan, beranda">R<span>&</span>R</a>
+      <nav aria-label="Navigasi undangan"><a href="#couple">Mempelai</a><a href="#events">Acara</a><a href="#gallery">Galeri</a><a href="#rsvp">RSVP</a></nav>
+    </header>
+    <main>
+      <!-- Hero utama. Ubah seluruh data dan media dari CONFIG di script.js. -->
+      <section id="home" class="hero dark">
+        <div class="hero-content reveal">
+          <p class="eyebrow">A celebration of love · Est. forever</p>
+          <div class="hero-portrait"><img id="hero-photo" src="assets/cover.svg" alt="Ilustrasi dekoratif pasangan" width="700" height="850"></div>
+          <div class="hero-title"><p class="eyebrow">The wedding of</p><h2>Restu <em>&</em><br> Ruslan</h2><p class="date-line" data-wedding-date>Sabtu, 2 Januari 2027</p></div>
+          <a class="scroll-cue" href="#couple">Discover our wedding <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+      <section class="intro section" aria-labelledby="intro-title">
+        <div class="narrow reveal"><div class="ornament" aria-hidden="true">✧</div><p class="eyebrow">A beautiful beginning</p><h2 id="intro-title">Satu janji,<br><em>sepanjang masa.</em></h2><p>Dengan penuh rasa syukur dan bahagia, kami mengundang Bapak/Ibu/Saudara/i untuk menjadi bagian dari hari istimewa kami. Kehadiran dan doa restu Anda merupakan anugerah yang tak ternilai.</p></div>
+      </section>
+      <section id="couple" class="section couple-section" aria-labelledby="couple-title">
+        <div class="section-heading reveal"><p class="eyebrow">The bride & groom</p><h2 id="couple-title">Dua hati, <em>satu tujuan.</em></h2><p>Dengan restu keluarga dan orang-orang terkasih.</p></div>
+        <div class="couple-grid wrap">
+          <article class="person reveal"><div class="portrait-frame"><img id="bride-photo" src="assets/bride.svg" alt="Ilustrasi placeholder mempelai wanita" loading="lazy" width="600" height="750"></div><p class="eyebrow">The bride</p><h3>Restu</h3><p class="full-name" id="bride-name"></p><p class="parents" id="bride-parents"></p><a id="bride-instagram" class="text-link" hidden target="_blank" rel="noopener noreferrer">Instagram ↗</a></article>
+          <div class="couple-amp" aria-hidden="true">&</div>
+          <article class="person reveal"><div class="portrait-frame"><img id="groom-photo" src="assets/groom.svg" alt="Ilustrasi placeholder mempelai pria" loading="lazy" width="600" height="750"></div><p class="eyebrow">The groom</p><h3>Ruslan</h3><p class="full-name" id="groom-name"></p><p class="parents" id="groom-parents"></p><a id="groom-instagram" class="text-link" hidden target="_blank" rel="noopener noreferrer">Instagram ↗</a></article>
+        </div>
+      </section>
+      <section id="events" class="section dark event-section" aria-labelledby="events-title">
+        <div class="section-heading reveal"><p class="eyebrow">Save the date</p><h2 id="events-title">Menuju <em>hari bahagia.</em></h2><p id="countdown-note">Menghitung hari hingga pernikahan kami.</p></div>
+        <div class="countdown reveal" role="group" aria-label="Hitung mundur pernikahan"><div><strong id="days">—</strong><span>Hari</span></div><div><strong id="hours">—</strong><span>Jam</span></div><div><strong id="minutes">—</strong><span>Menit</span></div><div><strong id="seconds">—</strong><span>Detik</span></div></div>
+        <div id="event-cards" class="event-grid wrap"></div>
+        <div class="venue wrap reveal"><div id="map-area" class="map-area"><p>Lokasi acara akan diumumkan.</p></div><a class="btn outline" id="maps-link" hidden target="_blank" rel="noopener noreferrer">⌖ &nbsp; Petunjuk Lokasi ↗</a></div>
+      </section>
+      <section id="story" class="section story-section" aria-labelledby="story-title"><div class="section-heading reveal"><p class="eyebrow">Our love story</p><h2 id="story-title">Setiap langkah, <em>menuju kita.</em></h2><p>Kenangan kecil yang menjadi awal perjalanan besar.</p></div><div id="story-list" class="timeline narrow"></div></section>
+      <section id="gallery" class="section gallery-section" aria-labelledby="gallery-title"><div class="section-heading reveal"><p class="eyebrow">Moments to remember</p><h2 id="gallery-title">Dalam <em>setiap kenangan.</em></h2><p>Potongan cerita yang ingin kami abadikan.</p></div><div id="gallery-grid" class="gallery-grid wrap"></div><div id="video-area" class="wrap video-area" hidden></div></section>
+      <section id="gift" class="section gift-section dark" aria-labelledby="gift-title"><div class="section-heading reveal"><p class="eyebrow">Wedding gift</p><h2 id="gift-title">Tanda <em>kasih.</em></h2><p>Doa restu Anda adalah hadiah terbaik. Apabila ingin memberikan tanda kasih, informasi hadiah dapat dilihat di bawah ini.</p></div><div id="gift-list" class="gift-grid wrap"></div><div class="gift-address narrow reveal"><h3>Pengiriman hadiah fisik</h3><p id="gift-address">Alamat akan diinformasikan.</p><button class="btn outline" id="copy-address" hidden type="button">Salin alamat</button></div></section>
+      <section id="rsvp" class="section rsvp-section" aria-labelledby="rsvp-title"><div class="section-heading reveal"><p class="eyebrow">Kindly reply</p><h2 id="rsvp-title">Doa & <em>konfirmasi.</em></h2><p>Mohon konfirmasi kehadiran dan titipkan doa terbaik untuk kami.</p></div>
+        <div class="rsvp-grid wrap"><form id="rsvp-form" class="rsvp-form"><h3>Konfirmasi kehadiran</h3><p id="rsvp-mode" class="hint"></p><label for="rsvp-name">Nama lengkap</label><input id="rsvp-name" name="name" required maxlength="80" autocomplete="name" placeholder="Nama Anda"><label for="attendance">Kehadiran</label><select id="attendance" name="attendance" required><option value="">Pilih kehadiran</option><option value="Hadir">Hadir</option><option value="Tidak Hadir">Tidak hadir</option></select><label for="guest-count">Jumlah hadir (termasuk Anda)</label><select id="guest-count" name="count" required><option value="">Pilih jumlah</option></select><label for="message">Pesan & doa (opsional)</label><textarea id="message" name="message" rows="4" maxlength="500" placeholder="Tuliskan doa terbaik Anda..."></textarea><div class="honeypot" aria-hidden="true"><label for="website">Kosongkan kolom ini</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div><button class="btn primary" type="submit" id="submit-rsvp">Lanjut ke WhatsApp &nbsp; ↗</button><p id="form-status" role="status" aria-live="polite"></p><p class="hint">Website tidak menyimpan data RSVP. Konfirmasi dikirim melalui WhatsApp setelah Anda menekan Kirim.</p></form>
+        </div>
+      </section>
+      <footer class="footer dark section"><img src="assets/monogram.svg" alt="" width="82" height="82" loading="lazy"><p class="eyebrow">With love & gratitude</p><h2>Restu <em>&</em> Ruslan</h2><p>Terima kasih atas kehadiran, doa, dan kasih sayang Anda.<br>Kami beserta keluarga besar mengucapkan terima kasih.</p><div class="small-ornament" aria-hidden="true">✧</div><p class="footer-credit">RESTU & RUSLAN · THE WEDDING</p></footer>
+    </main>
+    <div class="floating"><button id="music-toggle" type="button" aria-label="Putar musik" aria-pressed="false" title="Putar musik">♫</button><button id="back-top" type="button" aria-label="Kembali ke atas" title="Kembali ke atas" hidden>↑</button></div>
+  </div>
+  <audio id="background-music" loop preload="none"></audio>
+  <dialog id="lightbox" class="lightbox" aria-label="Foto galeri"><button class="lightbox-close" type="button" aria-label="Tutup foto">×</button><button class="lightbox-prev" type="button" aria-label="Foto sebelumnya">‹</button><figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure><button class="lightbox-next" type="button" aria-label="Foto berikutnya">›</button></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Aktifkan JavaScript untuk membuka undangan dan menggunakan fitur interaktif.</p></noscript>
+</body>
+</html>
