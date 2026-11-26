@@ -13,7 +13,7 @@ window.WEDDING_DEFAULTS = {
   "groom": {
     "fullName": "Muh. Ruslan Firdaus, S.M",
     "parents": "Anak kedua dari empat bersaudara, putra dari Bapak H. Asep Jauhar, S.Pd.I dan Almarhumah Ibu Eah Ii Abdurohim.",
-    "photo": "assets/groom.svg",
+    "photo": "assets/uploads/3cc85271018de049df333f32eb4a116826ae13b56fc2f3d5d384520a243fc14e.jpg",
     "instagram": ""
   },
   "events": [
