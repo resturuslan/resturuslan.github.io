@@ -39,15 +39,15 @@ window.WEDDING_DEFAULTS = {
   "story": [],
   "gallery": [
     {
-      "src": "assets/gallery-1.svg",
+      "src": "assets/uploads/ca36403318160437bbc49ec37ab78d2c22a342625a437bacf60b8185d1a9086f.jpg",
       "alt": "Ilustrasi dekoratif galeri 1"
     },
     {
-      "src": "assets/gallery-2.svg",
+      "src": "assets/uploads/19d72008fcc2d73592c9317e48a635fa5774e5beae67740d50b1093f2b7b7124.jpg",
       "alt": "Ilustrasi dekoratif galeri 2"
     },
     {
-      "src": "assets/gallery-3.svg",
+      "src": "assets/uploads/2bf8f1bdb9f9d445642744391063c4926a57fb17639e0c41c4af814ef3ef5a6a.jpg",
       "alt": "Ilustrasi dekoratif galeri 3"
     },
     {
