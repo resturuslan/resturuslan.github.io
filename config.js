@@ -7,13 +7,13 @@ window.WEDDING_DEFAULTS = {
   "bride": {
     "fullName": "Restu Shafira, S.Kom",
     "parents": "Anak kedua dari dua bersaudara, putri dari Bapak Kabul Heri, SE dan Ibu Aan Hasanah, SE.",
-    "photo": "assets/uploads/49817ffafc1dc8ac5097d1ff3e18150418bc4d2735581d5a74911b513819bf18.jpg",
+    "photo": "assets/uploads/9e16bd8fcc4c6b89c482f5828b987f2e61cc26ceb9130ff03f88f0e11bba7e47.jpg",
     "instagram": ""
   },
   "groom": {
     "fullName": "Muh. Ruslan Firdaus, S.M",
     "parents": "Anak kedua dari empat bersaudara, putra dari Bapak H. Asep Jauhar, S.Pd.I dan Almarhumah Ibu Eah Ii Abdurohim.",
-    "photo": "assets/uploads/3cc85271018de049df333f32eb4a116826ae13b56fc2f3d5d384520a243fc14e.jpg",
+    "photo": "assets/uploads/71662fd2fce67d3d0ed708a2d8c2edb37722b146ed241cb38882c4ba428d603d.jpg",
     "instagram": ""
   },
   "events": [
