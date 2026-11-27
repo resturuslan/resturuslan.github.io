@@ -39,28 +39,28 @@ window.WEDDING_DEFAULTS = {
   "story": [],
   "gallery": [
     {
-      "src": "assets/uploads/ca36403318160437bbc49ec37ab78d2c22a342625a437bacf60b8185d1a9086f.jpg",
-      "alt": "Ilustrasi dekoratif galeri 1"
-    },
-    {
-      "src": "assets/uploads/19d72008fcc2d73592c9317e48a635fa5774e5beae67740d50b1093f2b7b7124.jpg",
-      "alt": "Ilustrasi dekoratif galeri 2"
-    },
-    {
-      "src": "assets/uploads/2bf8f1bdb9f9d445642744391063c4926a57fb17639e0c41c4af814ef3ef5a6a.jpg",
-      "alt": "Ilustrasi dekoratif galeri 3"
-    },
-    {
-      "src": "assets/gallery-4.svg",
+      "src": "assets/uploads/516fe9247faf0cf0f115eaae18d4d22521672c44b0d995ff6296caf31b35823a.jpg",
       "alt": "Ilustrasi dekoratif galeri 4"
     },
     {
-      "src": "assets/gallery-5.svg",
+      "src": "assets/uploads/d2518503404785d4bd2068eb5f3a91485e752212c022a1191c7e911abd597c2e.jpg",
       "alt": "Ilustrasi dekoratif galeri 5"
     },
     {
-      "src": "assets/gallery-6.svg",
+      "src": "assets/uploads/c29d3089f816dcd7dcb01d39270cd7b71ac92c6fa956269d15a0c242e46fbe18.jpg",
       "alt": "Ilustrasi dekoratif galeri 6"
+    },
+    {
+      "src": "assets/uploads/c0f7238a6e30502519da6618819f07be9246ec4eb979acd9a042aef0c625f51b.jpg",
+      "alt": "Foto pernikahan"
+    },
+    {
+      "src": "assets/uploads/b56ebc0a09ca4ac7f3f6d96cfb000fa7c98289c6e0894bfb56f6413b5d9d6b92.jpg",
+      "alt": "Foto pernikahan"
+    },
+    {
+      "src": "assets/uploads/abb34a5f8ba8a7c787e9a266bfb7c57a0066c35e851d3d5ba83d7c23434f87db.jpg",
+      "alt": "Foto pernikahan"
     }
   ],
   "video": {
