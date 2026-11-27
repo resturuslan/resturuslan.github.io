@@ -68,7 +68,7 @@ window.WEDDING_DEFAULTS = {
     "type": "mp4",
     "poster": ""
   },
-  "music": "assets/music.mp3",
+  "music": "assets/restu.mp3",
   "musicVolume": 0.45,
   "gifts": [
     {
